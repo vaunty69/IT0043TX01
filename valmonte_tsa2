@@ -1,0 +1,35 @@
+<html lang="en">
+    <body background="https://t4.ftcdn.net/jpg/03/45/34/95/360_F_345349578_kkqCUW0N5Iv3ihwt6kWk8X2itSxDlpyL.jpg" marginwidth="100px">
+        <style>
+            Body{
+            background-repeat: no-repeat;
+              background-attachment: fixed; 
+              background-size: 100% 100%;
+            }
+            </style> 
+
+        <center>
+            <font face = "Calibri">
+                <img
+                src="https://upload.wikimedia.org/wikipedia/en/6/62/FEU_Tech_official_seal.png"
+                alt="FEU Tech Logo"
+                height="90px"
+                />
+
+                <font color="yellow" size="5"><h1>ADVISORY</h1></font>
+                <font color="white"<h2> WE ARE OPEN </h2>
+                <h3> ON MAY 1, 2024</h3>
+                <h4> (LABOR DAY) </h4>
+                <p> 
+                    The Admission Office will be ready to assist you with:
+                </p>
+                <p> 
+                    - FEU College Admission Test (On Campus)
+                </p>
+                <p> - Reservation of Slot </p>
+                <p><font color="yellow"><b> Keep safe, Tamaraws.</b></font></p>
+                <p align = "right"><font size="2" color="black"><i>Technology driven by education.</i></font></p>
+            </font>
+        </center>
+    </body>
+</html>
