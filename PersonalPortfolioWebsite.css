@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color:  #082355;
+    padding: 1rem ;
+    
+}
+
+.dot {
+     color: #fff;
+     font-size: 1.2rem;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    margin: 0 1rem;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+}
+
+#home {
+    background-color: #e0f7f7;
+    text-align: center;
+    padding: 9rem 0;
+
+}
+
+.pic{
+    width: 10px;
+}
+
+#about {
+    background-color: #72A0C1;
+    text-align: center;
+    padding: 12rem 0;
+    color: #000000;
+}
+
+.aboutimg img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    float: center;
+}
+.intro img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    float: center;
+}
+
+.intro h1 {
+    margin-top: 1rem;
+    font-size: 50px;
+}
+
+.intro h2 {
+    margin: 0.5rem 0;
+    font-size: 40px;
+}
+
+.intro p {
+    margin: 3rem;
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003e8f;
+}
+
+section {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.service {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 2%;
+    background-color: #ccf0ff;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.service h3 {
+    color: #012944;
+}
+
+
+.portfolio-item {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    border-radius: 25px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.social-icons img {
+    width: 50px;
+    margin: 0 0.5rem;
+}

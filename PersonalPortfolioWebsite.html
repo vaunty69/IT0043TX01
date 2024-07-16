@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="PersonalPortfolioWebsite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h2 class="dot" style = "position:absolute; left:80px; top:20px; "> Miguel Valmonte </h2>
+        <nav>
+            <ul>
+                <li><a href="#home" style="color:rgb(78, 169, 255)">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#social">Social Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <img src="miguelv.png"  alt="Miguel Valmonte" >
+            <h1>Hello, I am</h1>
+            <h2>John Matthew Miguel B. Valmonte</h2>
+            <p>And I'm a <span class="typing"></span></p>
+            <button>Download Resume</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="aboutimg">
+        <img class="square" img src="miguelv02.png" style="border-radius: 50%;" alt="Miguel Valmonte" >
+        <h2 style="font-size: 50px;">About Me</h2>
+        <p style="font-size: 30px;">I'm a Business Analytics</p>
+        <p style="font-size: 20px;"> Hello, I'am John Matthew Miguel B. Valmmonte and I'am a Information Technology Second-year Student specializing in Business Analytics tht acts a foundation in transforming complex data into actionable strategies. As a Web Developer, I build responsive and dynamic websites that offer seamless user experiences. Additionally, my background in Graphic Design allows me to create visually compelling and engaging designs.</p>
+        <button>Read more</button>
+    </div>
+    </section>
+
+    <section id="services">
+        <h2 style="font-size: 50px;">My Services</h2>
+        <div class="service">
+            <i class="fa-solid fa-chart-simple fa-5x" ></i>
+            <h3>Business Analytics</h3>
+            <p>As a business analyst, I delve deep into data to uncover meaningful insights that drive strategic decisions. Every day, I transform raw data into actionable intelligence, helping my organization understand market trends, customer behavior, and operational efficiencies.</p>
+            <button>Read More</button>
+        </div>
+        <div class="service">
+            <i class="fa-solid fa-code fa-5x"></i> 
+            <h3>Web Developer</h3>
+            <p>As a web developer, I bring digital ideas to life, crafting websites and web applications that are not only functional but also visually appealing and user-friendly. My day starts with coding sessions where I use languages like HTML, CSS, and JavaScript to build the front-end of a website.</p>
+            <button>Read More</button>
+        </div>
+        <div class="service">
+            <i class="fa-solid fa-layer-group fa-5x"></i>
+            <h3>Graphic Designer</h3>
+            <p>As a graphic designer, I transform ideas into visually captivating experiences. Each day, I start by diving into design briefs, understanding the client's vision, goals, and target audience. My tools of choice are software like Adobe Photoshop, Illustrator, and InDesign, which allow me to create everything from logos and branding materials to marketing collateral and digital graphics.</p>
+            <button>Read More</button>
+        </div>
+    </section>
+
+    <section id="portfolio" style="background-color: #ccf0ff; ">
+        <h2>Testimonials</h2>
+        <div class="portfolio-item">
+            <img src="liliana.png" style="border-radius: 250px;" alt="Project 1">
+            <h3>Patricia Bigornia</h3>
+            <p>Miguel's portfolio is incredibly well-organized and visually appealing. The smooth navigation and clear sections make it easy to find relevant information quickly. I was particularly impressed with the 'My Services' section, which clearly outlines his skills and expertise. This portfolio definitely sets a high standard!</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="nerner.png" style="border-radius: 250px; border-radius: 250px; width: 450px; height: 450px;" alt="Project 2">
+            <h3>Kirschner Bundang</h3>
+            <p>Miguel's portfolio is a fantastic showcase of his talents. The design is clean and modern, and the interactive elements, like the typing effect on the home page, add a nice touch. The detailed descriptions and images in the 'Portfolio' section give a great sense of his capabilities and past work. It's a very professional presentation.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="gabo.png" style="border-radius: 250px; border-radius: 250px; width: 450px; height: 455px;" alt="Project 3">
+            <h3>Brendan Malabanan</h3>
+            <p>Miguel's portfolio stands out due to its user-friendly layout and comprehensive content. Each section is thoughtfully designed to provide a complete overview of his skills, experience, and services. The 'Contact Me' form is a convenient feature that makes it easy for potential clients or employers to get in touch. Overall, an excellent and effective portfolio.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section id="social">
+        <h2>Follow Me</h2>
+        <div class="social-icons">
+            <i class="fa-brands fa-linkedin fa-2x"alt="LinkedIn" ></i> 
+            <i class="fa-brands fa-github fa-2x" alt="GitHub"></i>
+            <i class="fa-brands fa-facebook fa-2x" alt="Facebook"></i>
+            <i class="fa-brands fa-instagram fa-2x" alt="Instagram"></i>
+        </div>
+    </section>
+
+    <script src="PersonalPortfolioWebsite.js"></script>
+</body>
+</html>
